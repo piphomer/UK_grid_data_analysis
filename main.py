@@ -3,8 +3,9 @@
 
 import requests
 import pandas as pd
+import os
 
-ELEXON_API_KEY = 'vgoj23z4aqj0q7p'
+ELEXON_API_KEY = os.environ['ELEXON_API_KEY']
 
 def get_request():
 
